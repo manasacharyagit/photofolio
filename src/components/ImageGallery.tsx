@@ -3,7 +3,7 @@ import useFirestore from "../hooks/useFirestore"
 
 const ImageGallery = () => {
 
-    const { docs: images, isLoading } = useFirestore('images')
+    const { docs: images } = useFirestore('images')
     // if (true) {
     //     return (
     //         <div className="text-center mt-10">
